@@ -1,0 +1,34 @@
+
+
+.container{
+    margin: auto;
+    width:fit-content;
+   
+}
+.bourd{
+    margin: auto;
+    margin: 20px;
+}
+
+.bourdrow{
+    display: flex;
+    
+    align-items: center;
+}
+.turn{
+    margin-left: 86px;
+    border: 2px solid green;
+    width: 160px;
+}
+.winner{
+    margin-left:45px;
+}
+.btn{
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+}
