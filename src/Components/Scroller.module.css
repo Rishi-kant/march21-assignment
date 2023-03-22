@@ -1,0 +1,49 @@
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+    padding-top:40px ;
+}
+.display{
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  
+  overflow: scroll;
+}
+.card{
+  margin: 20px;
+  width: 600px;
+  height: 240px;
+ background-color: rgb(210, 228, 234);
+ border-radius: 20px;
+}
+
+.images{
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 30px;
+  height: 70px ;
+  width: 70px;
+  border-radius:50px;
+}
+.name{
+  margin-left: 90px;
+}
+.profession{
+  margin-left: 20px;
+}
+.experience{
+  margin-left: 90px;
+  color: blue;
+}
+h1{
+  margin-left: 30px;
+}
+.para{
+  margin-left: 30px;
+}
+.display::-webkit-scrollbar{
+    display: none;
+  }
